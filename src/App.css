@@ -1,0 +1,136 @@
+p,
+h4,
+h3,
+img {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.gainsboro-font {
+  color: gainsboro;
+  font-size: 0.9rem;
+  margin-top: 1%;
+}
+
+.app {
+  text-align: center;
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 2% 0;
+}
+
+.socialcard {
+  margin: 0 auto;
+  border-top: 1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 1%;
+}
+
+.socialcard-body {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5% 1.5% 0.6% 0.6%;
+}
+
+.socialcard-profile {
+  margin: 1.5%;
+}
+
+.socialcard-profile img {
+  display: inline-block;
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+}
+
+.socialcard-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialcard-content {
+  margin: 2% 0;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+}
+
+.content-text {
+  margin: 2% 3%;
+}
+
+.socailcard-buttons {
+  max-width: 50%;
+  margin: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons {
+  cursor: pointer;
+}
+
+.buttons span {
+  margin-left: 0.8rem;
+}
+
+.socialcard-comment {
+  margin: 0 auto;
+  display: flex;
+}
+
+.Modal-body {}
+
+.modal-footer {
+  text-align: left;
+  border: none;
+}
+
+.modal-button {
+  border-radius: 30px;
+}
+
+.comment {
+  display: flex;
+  border-top: 1px solid gainsboro;
+  margin-top: 3%;
+}
+
+.comment-prof {
+  margin-top: 3%;
+}
+
+.comment-prof h4 {
+  font-weight: bold;
+}
+
+.comment-text {
+  margin-top: 3%;
+}
+
+@media (max-width: 700px) {
+  .app {
+    max-width: 70%;
+  }
+  .socailcard-buttons {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 400px) {
+  .app {
+    max-width: 90%;
+  }
+  .socailcard-buttons {
+    max-width: 100%;
+  }
+}
